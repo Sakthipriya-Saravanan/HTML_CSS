@@ -1,0 +1,192 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0% auto;
+}
+
+header{
+  background-color: #750DB5;
+}
+
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    align-items: center;
+}
+.header-wrap nav{
+    display: flex;
+    gap: 30px;
+}
+
+.header-wrap a{
+    color: white;
+}
+.header-wrap h4{
+    font-weight:700;
+    font-size: 32px;
+}
+
+/* banner start  */
+
+.banner-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+/* Avoid
+
+  .child-1,child-2{
+  width: 50%;
+}
+
+*/
+.banner{ 
+    padding: 100px 0px;
+}
+
+.banner-wrapper > div {
+    /* background-color: greenyellow; */
+    width: 50%;
+}
+
+.banner-wrapper h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+
+.banner p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.banner-wrapper > div:nth-child(1) > div {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.banner-wrapper > div:nth-child(1) > div >a {
+    padding: 20px 30px;
+    border-radius: 12px;
+}
+
+.banner-wrapper > div:nth-child(1) > div >a:nth-child(1){
+    background-color: #FFA92C;
+    color: #FFFFFF;
+    font-weight:600;
+    font-size: 18px;
+}
+
+.banner-wrapper > div:nth-child(1) > div >a:nth-child(2){
+    color: #14121F;
+    font-weight:600;
+    font-size: 18px;
+
+}
+
+/* codee */
+
+.container1{
+    display: flex;
+}
+
+.container1 div{
+    width:367px;
+    height: 307px;
+    background-color: #750DB5;
+}
+
+.job-wrapper{
+    display: flex;
+    gap: 20px;
+    /* margin: 10px; */   
+    margin-bottom: 50px; 
+}
+.job-wrapper > div{
+    padding: 30px;
+    color: #FFFFFF;
+    border-radius: 20px;
+
+}
+
+.job-wrapper > div a{
+   color: #FFFFFF;
+}
+
+.job-wrapper > div:nth-child(1) {
+    background-color: #0C445C;
+}
+
+.job-wrapper > div:nth-child(2) {
+    background-color: #5B2C98;
+}
+
+.job-wrapper > div:nth-child(3) {
+    background-color: #7F3219;
+}
+
+.job-wrapper > div img{
+    margin-bottom: 25px;
+}
+
+.job-wrapper > div > span{
+    /* margin: 10px 10px; inlne elements ku margin bottom and top work agathuuu*/
+    margin: 20px 0px;
+    display: block;
+}
+
+.job-wrapper > div > p{
+     margin: 20px 0px;
+}
+
+.job-wrapper > div > div{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+ 
+.job-wrapper > div > div > a{
+    /* border-radius: 1px ; */
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
+
+.job-wrapper > div > div >a:hover{
+    background-color: #FFA92C;
+    color: black;
+    
+}
+
+footer > span {
+    padding:20px 0px;
+    display: block;
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    color: #4254F4;
+    background-color:#D6D6D6;
+    font-weight: 600;
+}
